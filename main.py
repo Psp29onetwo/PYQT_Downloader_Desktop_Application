@@ -118,7 +118,6 @@ class MainApp(QMainWindow, ui):
             QApplication.processEvents()
 
 
-
 def main():
     app = QApplication(sys.argv)
     window = MainApp()
